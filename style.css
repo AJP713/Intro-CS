@@ -9,3 +9,19 @@ h1{
   color:#2b05eb;
   text-align: center ;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  background-color:#f5b59e;
+  color: #444;
+}
+
+.cell{
+  background-color: #2e24b7;
+  color: #fff;
+  padding: 1em 2em 1em;
+  text-align: center;
+  font-size: 200%;
+}
